@@ -93,7 +93,7 @@ const barChart = () => {
 
   return (
     <div id='3dDemo'>
-      <svg ref={d3Chart} width={dimensions.width} height={dimensions.height}>
+      <svg ref={d3Chart} width={dimensions.width} height={520}>
       </svg>
     </div>
   );
